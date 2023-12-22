@@ -1,0 +1,46 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "productname": "Engine Oil",
+            "description": "Premium synthetic engine oil for improved performance.",
+            "price": 2099,
+            "image": "https://m.media-amazon.com/images/I/71jr7yBbOVL._AC_UL480_FMwebp_QL65_.jpg"
+          },
+          {
+            "id": 2,
+            "productname": "Air Filter",
+            "description": "High-performance air filter for maximum airflow.",
+            "price": 1099,
+            "image": "https://m.media-amazon.com/images/I/61Tq1tmxhuL._AC_UL480_FMwebp_QL65_.jpg"
+          },
+          {
+            "id": 3,
+            "productname": "Brake Pads",
+            "description": "Durable brake pads for reliable stopping power.",
+            "price": 3599,
+            "image": "https://m.media-amazon.com/images/I/81dFLyDTgYL._AC_UY327_FMwebp_QL65_.jpg"
+          },
+          {
+            "id": 4,
+            "productname": "Spark Plugs",
+            "description": "Premium spark plugs for efficient combustion.",
+            "price": 849,
+            "image": "https://m.media-amazon.com/images/I/41QPTPXldZL._AC_UL480_FMwebp_QL65_.jpg"
+          },
+          {
+            "id": 5,
+            "productname": "Oil Filter",
+            "description": "High-quality oil filter for superior filtration.",
+            "price": 1299,
+            "image": "https://m.media-amazon.com/images/I/41ajq2u2MRL._AC_UY327_FMwebp_QL65_.jpg"
+          },
+          {
+            "id": 6,
+            "productname": "Wiper Blades",
+            "description": "All-weather wiper blades for clear visibility.",
+            "price": 1599,
+            "image": "https://m.media-amazon.com/images/I/81i2juQ8rWL._AC_UY327_FMwebp_QL65_.jpg"
+          }
+    ]
+}

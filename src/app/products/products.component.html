@@ -1,0 +1,17 @@
+<div class="badge bg-primary">Available products</div>
+<br>
+    <br>
+    <div class="container" style="flex-direction: row;">
+    <div class="row">
+        <ng-container *ngFor="let item of productList">
+        <div class="card col-md-3">
+            <img src={{item.image}}>
+          <h5 style="white-space:nowrap;overflow: hidden;text-overflow:ellipsis;max-width: 100ch;">{{item.title}}</h5>
+          <h2>{{item.productname}}</h2>
+        <p style="white-space:nowrap;overflow: hidden;text-overflow:ellipsis;max-width: 100ch;">{{item.description}}</p>
+        <p><strong>Price:</strong>{{item.price}}</p>
+        <button class="btn btn-primary" (click)="addtoCart(item)">Add to cart</button>
+        </div>
+    </ng-container>
+    </div>
+</div>
